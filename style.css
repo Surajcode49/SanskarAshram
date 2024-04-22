@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(./src/Bg2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500vh;
+    /* Optional: Set height to cover the entire viewport */
+}
+
+/* Responsive adjustments for tablet */
+@media (max-width: 768px) {
+    .container {
+        height: auto;
+        /* Adjust height for tablet */
+        min-height: 100vh;
+        /* Ensure container fills the screen vertically */
+    }
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 480px) {
+    .container {
+        height: auto;
+        /* Adjust height for mobile */
+        min-height: 100vh;
+        /* Ensure container fills the screen vertically */
+    }
+}
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 20rem;
+    /* Set height to 20rem */
+}
+
+.cont1 img {
+    margin-top: 100rem;
+
+    height: 100%;
+    /* Ensure image fills container vertically */
+}
+
+
+
+/* Responsive adjustments for tablet */
+@media (max-width: 768px) {
+    .cont1 {
+        height: 15rem;
+        /* Adjust height for tablet */
+    }
+
+    .cont1 img {
+        margin-top: 60rem;
+        /* Margin for tablet */
+    }
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 480px) {
+    .cont1 {
+        height: 10rem;
+        /* Adjust height for mobile */
+    }
+
+    .cont1 img {
+        margin-top: 20rem;
+        /* Margin for mobile */
+    }
+}
+
+.cont2 {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 20rem;
+    /* Set height to 20rem */
+}
+
+.cont2 img {
+    margin-top: 100rem;
+    height: 100%;
+    /* Ensure image fills container vertically */
+}
+
+
+
+/* Responsive adjustments for tablet */
+@media (max-width: 768px) {
+    .cont2 {
+        height: 15rem;
+        /* Adjust height for tablet */
+    }
+
+    .cont2 img {
+        margin-top: 50rem;
+        /* Margin for tablet */
+    }
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 480px) {
+    .cont2 {
+        height: 10rem;
+        /* Adjust height for mobile */
+    }
+
+    .cont2 img {
+        margin-top: 20rem;
+        /* Margin for mobile */
+    }
+}
+
+.cont3 {
+    position: relative;
+    /* Required for absolute positioning */
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: calc(100vh + 50rem);
+    /* Set height to full viewport height plus 70rem margin */
+}
+
+.cont3 img {
+    position: absolute;
+    /* Position the image absolutely */
+    top: 50rem;
+    /* Set margin-top to 70rem */
+    left: 0;
+    /* Ensure the image starts from the left edge */
+    width: 100vw;
+    /* Set width to full viewport width */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: calc(100% - 70rem);
+    /* Ensure image fits container height minus margin */
+}
+
+
+/* Responsive adjustments for tablet */
+@media (max-width: 768px) {
+    .cont3 {
+        height: calc(100vh + 30rem);
+        /* Adjust height for tablet */
+    }
+
+    .cont3 img {
+        top: 30rem;
+        /* Adjust margin-top for tablet */
+        max-height: calc(100% - 30rem);
+        /* Adjust max-height for tablet */
+    }
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 480px) {
+    .cont3 {
+        height: calc(100vh + 10rem);
+        /* Adjust height for mobile */
+    }
+
+    .cont3 img {
+        top: 10rem;
+        /* Adjust margin-top for mobile */
+        max-height: calc(100% - 10rem);
+        /* Adjust max-height for mobile */
+    }
+}
+
+
+
+/*  responsivie code for mobile and table views */
+
+/* Variables */
+/* Variables */
+:root {
+    --bg-color: #F1E9DA;
+    --link-text-color: #fff;
+   
+    
+   
+    --button-bg-5: #F28123;
+    --border-radius: 6px;
+    --overlay-color: #fff;
+}
+
+/* Body Styles */
+.butt {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -520px;
+}
+.im{
+    height:4rem;
+    width: 4rem;
+}
+.im2{
+    height:4rem;
+    width: 4rem;
+}
+.im3{
+    height:4rem;
+    width: 4rem;
+}
+.im4{
+    height:4rem;
+    width: 4rem;
+}
+.im5{
+    height:4rem;
+    width: 4rem;
+}
+.im6{
+    height:4rem;
+    width: 4rem;
+}
+
+
+
+.container1 {
+    width: 850px;
+    margin: 70px auto 0px auto;
+    text-align: center;
+}
+
+.button-effect {
+    padding: 30px 0px;
+}
+
+.button-effect h2 {
+    font-family: 'Droid Serif', serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.button-effect a {
+    margin-right: 17px;
+}
+
+.button-effect a:nth-child(2) {
+    background-color: var(--button-bg-1);
+}
+
+.button-effect a:nth-child(3) {
+    background-color: var(--button-bg-2);
+}
+
+.button-effect a:nth-child(4) {
+    background-color: var(--button-bg-3);
+}
+
+.button-effect a:nth-child(5) {
+    background-color: var(--button-bg-4);
+}
+
+.button-effect a:nth-child(6) {
+    background-color: var(--button-bg-5);
+}
+
+.button-effect a:last-child {
+    margin-right: 0px;
+}
+
+/* Button Styles */
+.effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+   
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 20px 0px;
+    width: 150px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    margin-top: 20px;
+    /* Adjust margin-top as needed */
+}
+
+/* Effect 1 Styles */
+.effect.effect-1 {
+    transition: all 0.2s linear 0s;
+}
+
+.effect.effect-1:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    transition: all 0.2s linear 0s;
+}
+
+.effect.effect-1:hover {
+    text-indent: -20px;
+}
+
+.effect.effect-1:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+}
+
+/* Effect 2 Styles */
+.effect.effect-2 {
+    transition: all 0.2s linear 0s;
+}
+
+.effect.effect-2:before {
+    content: "\f0a4";
+    font-family: FontAwesome;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    background-color: rgba(var(--overlay-color), 0.3);
+    border-radius: 0px var(--border-radius) var(--border-radius) 0px;
+    transition: all 0.2s linear 0s;
+    text-align: center;
+}
+
+.effect.effect-2:hover {
+    text-indent: -30px;
+}
+
+.effect.effect-2:hover:before {
+    right: 0;
+    text-indent: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        width: 80%;
+        /* Adjusted for responsiveness */
+        margin-top: 50px;
+        /* Adjusted for responsiveness */
+    }
+
+    .button-effect a {
+        margin-right: 10px;
+        /* Adjusted for responsiveness */
+    }
+
+    .effect {
+        width: 120px;
+        /* Adjusted for responsiveness */
+        font-size: 16px;
+        /* Adjusted for responsiveness */
+        padding: 15px 0px;
+        /* Adjusted for responsiveness */
+    }
+}
